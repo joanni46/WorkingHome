@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+body{
+    background-color: #D9D9D9;
+
+    font-family: 'Titillium Web', sans-serif;
+    
+    max-width: 1920px;
+    
+    
+    .header{
+        
+        max-height: 170px;
+        background-color: #71ba51;
+        
+        display: flex;
+        
+        .nav{
+            display: flex;
+            
+            .logo{
+                max-width: 17%; // ГОВНОКОД 
+
+                // padding-top: 39px;
+                // padding-bottom: 39px;
+                // padding-left: 150px;
+                // padding-right: 150px;
+            }
+
+            ul{
+                margin-left: 50px;
+
+                display: flex;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                justify-content: center;
+                li{
+                    color: #fff;
+
+                    margin-right: 70px;
+                    font-size: 22px;
+                    font-weight: 400;
+                    display: flex;
+                    align-items: center;
+                }
+
+
+        }}
+
+    }
+    .main{
+        
+        .title{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 100px 100px 100px 450px;
+
+        }
+        
+        .pricelist{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 70px;
+            
+
+            a{
+                size: 700;
+                border: none;
+        
+                background-color: red;
+                color: #fff;
+                padding: 20px 50px 25px 50px;
+                border-radius: 25px;
+            }
+
+        }
+
+        .map{
+                width: 500px;
+                height: 500px;
+                background-color:green;
+                text-align: center;
+
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+           
+        .slid{
+
+            margin: 0 auto;
+            width: 800px;
+            height: 450px;
+            background-color: rgb(182, 203, 222);
+            img{
+                min-width: 800px;
+                
+            }
+            
+        }
+
+        .button{
+            cursor: pointer;
+            font-size: 18px;
+            padding: 0.2rem 1rem;
+        }
+
+        .hidden{
+            display: block;
+        }
+
+
+
+
+
+           //Каталог
+
+        .catalog{
+            background-color: pink;
+            img{
+                height: 500px;
+                width: 500px;//сделать карусель
+            }
+        }
+        
+    
+        
+
+    }
+
+    footer{
+        background-color: #2F3F44;
+        .contacts{
+            padding: 100px;
+
+        }
+    }
+}

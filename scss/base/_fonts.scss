@@ -1,0 +1,16 @@
+@import url('../fonts/Name/stylesheet.css');
+
+
+$nameFont: 'Name';
+
+@mixin font-family($font) {
+	font-family: $font, sans-serif;
+}
+
+@mixin name($weight:400, $style:normal) {
+	@include font-family ($nameFont);
+	font-weight: $weight;
+	font-style: $style;
+}
+
+// @include name(400);  // Использование шрифтов
